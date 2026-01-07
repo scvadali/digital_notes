@@ -1,10 +1,14 @@
  
 /* start css.sty */
+.cmr-5{font-size:50%;}
 .cmr-17{font-size:170%;}
 .cmr-12{font-size:120%;}
 .cmtt-10{font-family: monospace,monospace;}
+.cmtt-10{font-family: monospace,monospace;}
 .cmti-10{ font-style: italic;}
 .cmbx-10{ font-weight: bold;}
+.cmtt-9{font-size:90%;font-family: monospace,monospace;}
+.cmtt-9{font-family: monospace,monospace;}
 .small-caps{font-variant: small-caps; }
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
@@ -20,7 +24,7 @@ td center { margin-top:0em; margin-bottom:0em; }
 .Canvas { position:relative; }
 img.math{vertical-align:middle;}
 div.par-math-display, div.math-display{text-align:center;}
-body{ margin:1rem 4rem; max-width:none; padding:0 .62em; }
+body{ margin:1em auto; max-width:80ch; padding:0 .62em; }
 h1,h2,h3,h4,h5 { line-height:1.2; }
 @media print{ body{ max-width:none } }
 .partHead, .likepartHead { font-size: 2em; }
@@ -153,15 +157,15 @@ table.multline, table.multline-star {width:100%;}
 td.gather {text-align:center; }
 table.gather {width:100%;}
 div.gather-star {text-align:center;}
-.tcolorbox{margin-top:0.5em;margin-bottom: 0.5em;}
-.tcolorbox .lowerbox{margin-top:0pt;}
-div.verbatiminput {font-family: monospace,monospace; white-space: nowrap; }
 code.lstinline{font-family:monospace,monospace;}
 pre.listings{font-family: monospace,monospace; white-space: pre-wrap; margin-top:0.5em; margin-bottom:0.5em; }
 .lstlisting .label{margin-right:0.5em; }
 pre.lstlisting{font-family: monospace,monospace; white-space: pre-wrap; margin-top:0.5em; margin-bottom:0.5em; }
 pre.lstinputlisting{ font-family: monospace,monospace; white-space: pre-wrap; }
 .lstinputlisting .label{margin-right:0.5em;}
+.tcolorbox{margin-top:0.5em;margin-bottom: 0.5em;}
+.tcolorbox .lowerbox{margin-top:0pt;}
+div.verbatiminput {font-family: monospace,monospace; white-space: nowrap; }
 dt.printshorthands{float:left; clear:left; margin-right:1em;}
 dd.thebibliography {margin-left: 2.5em;}
 dt.thebibliography {float:left; clear:left; margin-right:1em;}
@@ -181,6 +185,10 @@ dt.thebibliography {float:left; clear:left; margin-right:1em;}
 #tcolobox-3 .tcolorbox-content{color: #000000; background-color: #F2F2F2; border: 1px solid #404040;}
 #tcolobox-3 div{ padding-top:8.5358px; padding-bottom:8.5358px; padding-left:14.22635px; padding-right:14.22635px; }
 #TBL-4-2{border-right:1px solid black;}
+#TBL-5-1{border-left: 1px solid black;}
+#TBL-5-1{border-right:1px solid black;}
+#TBL-5-2{border-right:1px solid black;}
+#TBL-5-3{border-right:1px solid black;}
 #tcolobox-4 .tcolorbox-title{color: #FFFFFF; background-color: #404040;}
 #tcolobox-4 .tcolorbox-content{color: #000000; background-color: #F2F2F2; border: 1px solid #404040;}
 #tcolobox-4 div{ padding-top:8.5358px; padding-bottom:8.5358px; padding-left:14.22635px; padding-right:14.22635px; }
@@ -196,9 +204,27 @@ dt.thebibliography {float:left; clear:left; margin-right:1em;}
 #tcolobox-8 .tcolorbox-title{color: #FFFFFF; background-color: #404040;}
 #tcolobox-8 .tcolorbox-content{color: #000000; background-color: #F2F2F2; border: 1px solid #404040;}
 #tcolobox-8 div{ padding-top:8.5358px; padding-bottom:8.5358px; padding-left:14.22635px; padding-right:14.22635px; }
-#TBL-5-1{border-left: 1px solid black;}
-#TBL-5-1{border-right:1px solid black;}
-#TBL-5-2{border-right:1px solid black;}
-#TBL-5-3{border-right:1px solid black;}
+#listing-1{background-color:#FFFFFF;}
+#listing-2{background-color:#FFFFFF;}
+#listing-3{background-color:#FFFFFF;}
+#listing-4{background-color:#FFFFFF;}
+#TBL-6-1{border-left: 1px solid black;}
+#TBL-6-1{border-right:1px solid black;}
+#TBL-6-2{border-right:1px solid black;}
+#TBL-6-3{border-right:1px solid black;}
+#TBL-7-1{border-left: 1px solid black;}
+#TBL-7-1{border-right:1px solid black;}
+#TBL-7-2{border-right:1px solid black;}
+#TBL-7-3{border-right:1px solid black;}
+#TBL-7-4{border-right:1px solid black;}
+#TBL-8-1{border-left: 1px solid black;}
+#TBL-8-1{border-right:1px solid black;}
+#TBL-8-2{border-right:1px solid black;}
+#TBL-8-3{border-right:1px solid black;}
+#TBL-8-4{border-right:1px solid black;}
+#TBL-8-5{border-right:1px solid black;}
+#TBL-8-6{border-right:1px solid black;}
+#TBL-8-7{border-right:1px solid black;}
+#TBL-8-8{border-right:1px solid black;}
 /* end css.sty */
 
